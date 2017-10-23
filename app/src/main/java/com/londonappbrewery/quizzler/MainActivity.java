@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
             new TrueFalse(R.string.question_11, false),
             new TrueFalse(R.string.question_12, false),
             new TrueFalse(R.string.question_13,true)
-    };
+    } ;
     final int PROGRESS_BAR_INCREMENT = (int)Math.ceil(100.0/mQuestionBank.length);
 
     @Override
